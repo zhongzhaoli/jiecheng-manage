@@ -22,6 +22,7 @@ const list = [
         component: '@/views/index/dashboard',
         meta: {
           title: '看板',
+          icon: 'dashboard-line',
           noClosable: true,
           hidden: true
         },
@@ -42,7 +43,7 @@ const list = [
         name: "OperateTeam-List",
         component: '@/views/operateTeam/list/index',
         meta: {
-          title: "运营商列表",
+          title: "运营团队列表",
           icon: "list-unordered"
         }
       },
@@ -109,7 +110,7 @@ const list = [
         name: "Rider-Review",
         component: '@/views/rider/review/index',
         meta: {
-          title: "骑手审核",
+          title: "审核记录",
           icon: "checkbox-line"
         }
       },

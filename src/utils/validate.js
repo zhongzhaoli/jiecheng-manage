@@ -11,7 +11,7 @@
  * @param path
  * @returns {boolean}
  */
- export function isExternal(path) {
+export function isExternal(path) {
   return /^(https?:|mailto:|tel:|\/\/)/.test(path)
 }
 
@@ -20,7 +20,7 @@
  * @param value
  * @returns {boolean}
  */
- export function isJson(value) {
+export function isJson(value) {
   if (typeof value === 'string') {
     const obj = JSON.parse(value)
     return !!(typeof obj === 'object' && obj)
@@ -33,7 +33,7 @@
  * @param value
  * @returns {boolean}
  */
- export function isString(value) {
+export function isString(value) {
   return typeof value === 'string' || value instanceof String
 }
 

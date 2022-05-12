@@ -155,4 +155,13 @@ module.exports = {
   请输入手机号: 'Please enter your mobile phone number',
   请输入手机验证码: 'Please input the mobile phone verification code',
   获取验证码: 'Get captcha',
+  运营团队: 'Operation team',
+  平台会员: 'Member',
+  平台骑手: 'Rider',
+  订单管理: "Order",
+  运营中心: "Operation Center",
+  系统管理: "System Management",
+  系统监控: "System Monitor",
+  运营商列表: "Operator List",
+  结算申请: "Settlement Apply",
 }
