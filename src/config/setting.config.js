@@ -30,5 +30,7 @@ module.exports = {
   // token存储的key
   tokenKey: "custer-admin-token",
   // token存储位置
-  storage: "cookie"
+  storage: "cookie",
+  // 腾讯地图KEY
+  TMAP_Key: "UVZBZ-XQMWF-B5NJW-JIOHK-HV3WJ-EAFSR"
 }

@@ -13,9 +13,9 @@ function mockOperate() {
 function mockSchool(){
     return mock({
         "array|1": [
-            "深技师校区",
-            "深职院校区",
-            "深信息校区",
+            "深技师学区",
+            "深职院学区",
+            "深信息学区",
         ]
     }).array;
 }

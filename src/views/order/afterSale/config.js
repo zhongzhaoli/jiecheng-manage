@@ -30,13 +30,6 @@ const handleColumn = [
         icon: "el-icon-download",
         type: "warning"
     },
-    // {
-    //     label: "批量发送站内信",
-    //     key: "message",
-    //     selection: true,
-    //     icon: "el-icon-s-promotion",
-    //     type: "primary"
-    // },
 ];
 const tableColumn = [
     {

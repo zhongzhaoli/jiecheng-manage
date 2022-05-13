@@ -7,6 +7,10 @@ const screenColumn = [
         label: "运营团队",
         key: "operate"
     },
+    {
+        label: "退款来源",
+        key: "refundType"
+    },
 ];
 const screenConfig = {
     labelWidth: "80px"
@@ -44,9 +48,14 @@ const tableColumn = [
         key: "operate"
     },
     {
-        label: "收款金额",
+        label: "退款金额",
         minWidth: 110,
         key: "orderPrice"
+    },
+    {
+        label: "退款来源",
+        minWidth: 110,
+        key: "refundType"
     },
     {
         label: "下单时间",

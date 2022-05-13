@@ -10,10 +10,12 @@ import App from './App.vue'
 import i18n from './i18n';
 import router from './router';
 import store from '@/store';
+import { VueJsonp } from 'vue-jsonp'
 import '@/utils/filters';
 import "@/custer";
 import "@/assets/fonts/remixicon.css";
 Vue.config.productionTip = false
+Vue.use(VueJsonp);
 
 new Vue({
   i18n,

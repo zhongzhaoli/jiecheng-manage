@@ -193,7 +193,7 @@ const list = [
       {
         path: "school",
         name: "Operate-School",
-        component: '@/views/operate/school/index',
+        component: '@/views/operate/school/edit/index',
         meta: {
           title: "学区管理",
           icon: "building-line"
