@@ -191,15 +191,6 @@ const list = [
         }
       },
       {
-        path: "school",
-        name: "Operate-School",
-        component: '@/views/operate/school/edit/index',
-        meta: {
-          title: "学区管理",
-          icon: "building-line"
-        }
-      },
-      {
         path: "message",
         name: "Operate-Message",
         component: '@/views/operate/message/index',

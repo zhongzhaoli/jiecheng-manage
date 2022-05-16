@@ -42,7 +42,7 @@
       title="设置校区"
       :visible.sync="setSchoolVisible"
       width="600px"
-      top="100px"
+      top="50px"
       :before-close="schoolBeforeClose"
     >
       <div class="schoolContentBox">
@@ -170,6 +170,7 @@ export default {
       });
     },
     handleSelect(item) {
+      console.log(item.location);
       this.map.setCenter(new TMap.LatLng(item.location.lat, item.location.lng));
       if(this.circle) this.circle.setMap(null);
       this.buildCircle(item.location.lat, item.location.lng);
@@ -186,7 +187,7 @@ export default {
 .operateTeam-list-container {
   #container {
     width: 100%;
-    height: 400px;
+    height: 350px;
   }
 }
 </style>
